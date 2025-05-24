@@ -1,5 +1,18 @@
 
-# 📊 Dashboard de Gestão de Vendas – Power BI
+# 📊 Projetos de Análise de Dados com Power BI
+
+Este repositório reúne projetos de visualização de dados desenvolvidos no **Power BI**, com foco em processos de **ETL**, **análise exploratória** e **criação de dashboards interativos**. Cada projeto tem um objetivo específico, conjunto de dados próprios e abordagens distintas para apresentar insights relevantes por meio de gráficos, indicadores e segmentações.
+
+---
+
+## 📚 Conteúdo
+
+- [📈 Projeto 1: Dashboard de Gestão de Vendas](#-dashboard-de-gestão-de-vendas--power-bi)
+- [🚗 Projeto 2: Dashboard de Carros (ETL + PostgreSQL)](#-dashboard-de-carros)
+
+---
+
+# 📈 Dashboard de Gestão de Vendas – Power BI
 
 ## 📝 Descrição
 Este projeto tem como objetivo apresentar um dashboard interativo no Power BI para análise de vendas de uma empresa fictícia. O relatório permite acompanhar indicadores como faturamento total, ticket médio, comissão, além de análises por loja, forma de pagamento, período e produtos.
@@ -78,14 +91,12 @@ Jair Cipriano
 
 Projeto sob licença [MIT](LICENSE).
 
-
-
-
-
+---
 
 # 🚗 Dashboard de Carros
 
-Este projeto tem como objetivo apresentar um painel de controle (dashboard) para análise de dados automotivos. Os dados foram extraídos de arquivos CSV, analisados previamente no Excel, inseridos em um banco de dados PostgreSQL e, por fim, visualizados e tratados no Power BI.
+## 📝 Descrição
+Este projeto apresenta um painel de controle (dashboard) para análise de dados automotivos. O pipeline completo de **ETL** foi realizado: desde arquivos CSV até o banco de dados **PostgreSQL**, com visualização final no **Power BI**.
 
 ---
 
