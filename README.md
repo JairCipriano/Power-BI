@@ -64,12 +64,6 @@ Contém duas tabelas principais:
 
 ---
 
-## 🖼️ Captura do Dashboard
-
-![Dashboard de Vendas](imagens/dashboard_vendas.png)
-
----
-
 ## 👨‍💻 Desenvolvedor
 
 Jair Cipriano  
@@ -80,3 +74,94 @@ Jair Cipriano
 ## 📜 Licença
 
 Projeto sob licença [MIT](LICENSE).
+
+
+
+
+
+
+# 🚗 Dashboard de Carros
+
+Este projeto tem como objetivo apresentar um painel de controle (dashboard) para análise de dados automotivos. Os dados foram extraídos de arquivos CSV, analisados previamente no Excel, inseridos em um banco de dados PostgreSQL e, por fim, visualizados e tratados no Power BI.
+
+---
+
+## 🔗 Estrutura do Projeto
+
+```
+power_bi/
+│
+├── Dashboard_de_carros/
+│   ├── Car_Data.csv
+│   ├── Insurance_data.csv
+│   ├── Owners_data.csv
+│   ├── Sales_data.csv
+│   ├── Service_History.csv
+│   ├── Projeto_E.T.L.pbix
+│
+├── LICENSE
+└── README.md
+```
+
+---
+
+## 📁 Fontes de Dados
+
+- **Car_Data.csv**: Informações técnicas e gerais dos veículos.
+- **Insurance_data.csv**: Dados de seguros dos carros, incluindo número da apólice e validade.
+- **Owners_data.csv**: Informações dos proprietários, tipo de dono e contatos.
+- **Sales_data.csv**: Dados das vendas como data, valor e comprador.
+- **Service_History.csv**: Histórico de manutenção dos veículos.
+
+---
+
+## ⚙️ Processo ETL
+
+1. **Extração**:
+   - Dados importados dos arquivos `.csv`.
+
+2. **Transformação**:
+   - Análise e verificação prévia no **Microsoft Excel**.
+   - Padronização de formatos (datas, números).
+   - Tratamento de dados no Power BI com **DAX** e Power Query.
+
+3. **Carga**:
+   - Inserção dos dados em um banco de dados **PostgreSQL**.
+   - Conexão do banco de dados ao Power BI.
+
+---
+
+## 📌 KPIs no Dashboard
+
+- 🚘 **Total de Carros**: 25,02 mil
+- 💵 **Valor Total das Vendas**: R$ 649,32 mil
+- 🏷 **Marcas de Carro**: 10
+- ⛽ **Tipos de Combustíveis**: 5
+- 🌆 **Total de Cidades**: 10
+
+---
+
+## 📈 Visões Apresentadas
+
+- **Distribuição por Tipo de Combustível** (barra horizontal)
+- **Vendas Anuais** (colunas por ano)
+- **Total de Carros por Marca** (gráfico de rosca)
+- **Transmissão Manual vs Automática** (gráfico de rosca)
+
+---
+
+## 🎨 Layout
+
+- Tema: **Azul e Branco**
+- Cores principais: Tons de azul para destaque visual
+- Gráficos com dados bem distribuídos e legibilidade aprimorada
+- Estilo limpo, profissional e moderno
+
+---
+
+## 🧠 Ferramentas Utilizadas
+
+- **Power BI** (Modelagem, visualização, DAX)
+- **PostgreSQL** (Banco de dados relacional)
+- **Excel** (Pré-análise dos dados)
+- Linguagem **DAX** e **Power Query**
