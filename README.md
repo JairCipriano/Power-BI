@@ -95,12 +95,14 @@ Este projeto tem como objetivo apresentar um painel de controle (dashboard) para
 power_bi/
 │
 ├── Dashboard_de_carros/
-│   ├── Car_Data.csv
-│   ├── Insurance_data.csv
-│   ├── Owners_data.csv
-│   ├── Sales_data.csv
-│   ├── Service_History.csv
-│   ├── Projeto_E.T.L.pbix
+|   |── dados/
+│   |       ├── Insurance_data.csv
+│   |       ├── Owners_data.csv
+│   |       ├── Sales_data.csv
+│   |       └── Service_History.csv
+|   |──imagens/
+|   |        └── Dashboard_carros.png
+│   └── Projeto_E.T.L.pbix
 │
 ├── LICENSE
 └── README.md
