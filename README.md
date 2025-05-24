@@ -25,7 +25,7 @@ power_bi/
 │   ├── Dashboard_de_Vendas.pbix     → Arquivo principal do Power BI
 │   ├── bd_vendas.xlsx               → Base de dados de vendas e lojas
 │   ├── imagens/                     → Capturas de tela do dashboard
-│   └── dashboard_vendas.png
+│        └── dashboard_vendas.png
 │ 
 ├── LICENSE                      → Licença do projeto
 └── README.md                    → Este arquivo de documentação
