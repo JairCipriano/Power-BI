@@ -166,18 +166,22 @@ power_bi/
 
 ---
 
-## 🎨 Layout
-
-- Tema: **Azul e Branco**
-- Cores principais: Tons de azul para destaque visual
-- Gráficos com dados bem distribuídos e legibilidade aprimorada
-- Estilo limpo, profissional e moderno
-
----
-
 ## 🧠 Ferramentas Utilizadas
 
 - **Power BI** (Modelagem, visualização, DAX)
 - **PostgreSQL** (Banco de dados relacional)
 - **Excel** (Pré-análise dos dados)
 - Linguagem **DAX** e **Power Query**
+
+---
+
+- ## 👨‍💻 Desenvolvedor
+
+Jair Cipriano  
+📧 jaircipriano69@gmail.com
+
+---
+
+## 📜 Licença
+
+Projeto sob licença [MIT](LICENSE).
